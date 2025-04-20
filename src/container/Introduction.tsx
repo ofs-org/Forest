@@ -9,7 +9,7 @@ export function Introduction() {
           src={floresta}
           alt="Imagem de floresta"
         />
-        <div className="bg-verde-950/60 flex flex-col gap-2 items-start mb-8 p-4 rounded-xl sm:bg-verde-950 sm:flex-row sm:gap-8 sm:inline-flex sm:items-center sm:pl-4 sm:pr-1 sm:py-1 sm:rounded-ful">
+        <div className="bg-verde-950/60 flex flex-col gap-2 items-start mb-8 p-4 rounded-xl sm:bg-verde-950 sm:flex-row sm:gap-8 sm:inline-flex sm:items-center sm:pl-4 sm:pr-1 sm:py-1 sm:rounded-full">
           Vagas para Dezembro abertas
           <a
             className="bg-verde-400 inline-flex px-4 py-2 rounded-full text-verde-900"
