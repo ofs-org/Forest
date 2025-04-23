@@ -2,6 +2,7 @@ import { Climate } from "./components/Climate";
 import { Menu } from "./components/Menu";
 import { Accommodations } from "./container/accommodations";
 import { Events } from "./container/Events";
+import { Experiences } from "./container/Experiences";
 import { Introduction } from "./container/Introduction";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Introduction />
             <Accommodations />
             <Events />
+            <Experiences />
           </section>
         </main>
       </body>
