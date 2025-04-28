@@ -39,3 +39,21 @@ export const partners = [
     Image: "./src/assets/parceiros/surfbot.svg",
   },
 ];
+
+export const SocialMedia = [
+  {
+    name: "Instagram",
+    Image: "",
+    href: "#",
+  },
+  {
+    name: "LinkedIn",
+    Image: "",
+    href: "#",
+  },
+  {
+    name: "Facebook",
+    Image: "",
+    href: "#",
+  },
+];

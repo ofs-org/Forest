@@ -4,6 +4,7 @@ import { Accommodations } from "./container/accommodations";
 import Contact from "./container/Contact";
 import { Events } from "./container/Events";
 import { Experiences } from "./container/Experiences";
+import Footer from "./container/Footer";
 import { Introduction } from "./container/Introduction";
 import { NaturalCycle } from "./container/NaturalCycle";
 import Partners from "./container/Partners";
@@ -25,7 +26,7 @@ function App() {
             <NaturalCycle />
             <Contact />
             <Partners />
-            <ul>{}</ul>
+            <Footer />
           </>
         </main>
       </>
