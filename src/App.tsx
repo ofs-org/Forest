@@ -4,6 +4,7 @@ import { Accommodations } from "./container/accommodations";
 import { Events } from "./container/Events";
 import { Experiences } from "./container/Experiences";
 import { Introduction } from "./container/Introduction";
+import { NaturalCycle } from "./container/NasturalCycle";
 
 function App() {
   return (
@@ -19,11 +20,11 @@ function App() {
             <Accommodations />
             <Events />
             <Experiences />
+            <NaturalCycle />
           </section>
         </main>
       </body>
     </>
   );
 }
-
 export default App;
