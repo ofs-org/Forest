@@ -4,7 +4,7 @@ import iconNight from "../assets/img/noite.svg";
 
 export function NaturalCycle() {
   return (
-    <section className="bg-[url('./src/assets/img/padrao.svg') bg-center bg-contain] bg-no-repeat container pt-12 sm:pt-16 sm:py-16">
+    <section className="] bg-[url('./src/assets/img/padrao.svg')] bg-center bg-contain bg-no-repeat container pb-12 sm:pb-16 sm:py-16">
       <p className="mb-4 text-center text-sm text-verde-200 tracking-widest uppercase">
         Ciclo Natural
       </p>
