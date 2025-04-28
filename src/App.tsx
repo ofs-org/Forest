@@ -6,6 +6,7 @@ import { Events } from "./container/Events";
 import { Experiences } from "./container/Experiences";
 import { Introduction } from "./container/Introduction";
 import { NaturalCycle } from "./container/NaturalCycle";
+import Partners from "./container/Partners";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
             <Experiences />
             <NaturalCycle />
             <Contact />
+            <Partners />
+            <ul>{}</ul>
           </>
         </main>
       </>
