@@ -17,13 +17,18 @@ export default function Contact() {
             <span className="bg-verde-400 h-0.5 inline-block w-6"></span>
             <h2 className="font-serif mb-2 text-2xl text-verde-300">Base</h2>
             <p className="text-gray-300">
-              Rua da Mata, 123, Floresta Nacional - RJ
+              Rua da Mata, 123, Floresta Nacional - SP
             </p>
           </div>
           <div>
             <span className="bg-verde-400 h-0.5 inline-block w-6"></span>
             <h2 className="font-serif mb-2 text-2xl text-verde-300">Email</h2>
-            <p className="text-gray-300">oliveira.frontend@gmail.com</p>
+            <p className="text-gray-300">
+              {" "}
+              <a href="mailto:oliveira.frontend@gmail.com">
+                oliveira.frontend@gmail.com
+              </a>
+            </p>
           </div>
           <div>
             <span className="bg-verde-400 h-0.5 inline-block w-6"></span>
