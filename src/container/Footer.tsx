@@ -52,8 +52,8 @@ export default function Footer() {
         <p>© Forest. Todos os Direitos Reservados</p>
 
         <ul className="*:hover:text-verde-300 flex gap-8">
-          {SocialMedia.map((media) => (
-            <li>
+          {SocialMedia.map((media, index) => (
+            <li key={index}>
               <a href={media.href}></a>
               {media.name}
             </li>
